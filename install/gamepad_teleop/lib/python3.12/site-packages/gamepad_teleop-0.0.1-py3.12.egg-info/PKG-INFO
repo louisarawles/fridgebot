@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gamepad-teleop
+Version: 0.0.1
+Summary: Gamepad left/right joystick teleoperation to /cmd_vel
+Maintainer: ROS 2 Developer
+Maintainer-email: developer@example.com
+License: Apache-2.0

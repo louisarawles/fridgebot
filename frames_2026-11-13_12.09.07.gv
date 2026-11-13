@@ -1,0 +1,7 @@
+digraph G {
+"icp_odom" -> "velodyne"[label=" Broadcaster: default_authority\nAverage rate: 14.883\nBuffer length: 0.202\nMost recent transform: 1794589743.020534\nOldest transform: 1794589742.818958\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1794589747.8262758"[ shape=plaintext ] ;
+}->"icp_odom";
+}

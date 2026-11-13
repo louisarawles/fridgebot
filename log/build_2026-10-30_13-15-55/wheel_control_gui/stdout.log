@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/wheel_control_gui/wheel_control_gui.egg-info
+writing ../../../build/wheel_control_gui/wheel_control_gui.egg-info/PKG-INFO
+writing dependency_links to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/dependency_links.txt
+writing entry points to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/entry_points.txt
+writing requirements to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/requires.txt
+writing top-level names to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/top_level.txt
+writing manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'
+reading manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'
+writing manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/victor/Desktop/robotics/build/wheel_control_gui/build
+creating /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib
+creating /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+copying wheel_control_gui/wheel_gui.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+copying wheel_control_gui/distance_tracker.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+copying wheel_control_gui/__init__.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+running install
+running install_lib
+creating /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/wheel_gui.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/distance_tracker.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/__init__.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/wheel_gui.py to wheel_gui.cpython-312.pyc
+byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/distance_tracker.py to distance_tracker.cpython-312.pyc
+byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index
+creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index
+creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index/packages
+copying resource/wheel_control_gui -> /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index/packages
+copying package.xml -> /home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui
+running install_egg_info
+Copying ../../../build/wheel_control_gui/wheel_control_gui.egg-info to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui-0.0.0-py3.12.egg-info
+running install_scripts
+Installing distance_tracker script to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/wheel_control_gui
+Installing wheel_gui script to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/wheel_control_gui
+writing list of installed files to '/home/victor/Desktop/robotics/build/wheel_control_gui/install.log'

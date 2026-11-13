@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000094] (gamepad_teleop) JobQueued: {'identifier': 'gamepad_teleop', 'dependencies': OrderedDict()}
+[0.000120] (wheel_control_gui) JobQueued: {'identifier': 'wheel_control_gui', 'dependencies': OrderedDict()}
+[0.000136] (gamepad_teleop) JobStarted: {'identifier': 'gamepad_teleop'}
+[0.045225] (wheel_control_gui) JobStarted: {'identifier': 'wheel_control_gui'}
+[0.099445] (-) TimerEvent: {}
+[0.199667] (-) TimerEvent: {}
+[0.299880] (-) TimerEvent: {}
+[0.400095] (-) TimerEvent: {}
+[0.500308] (-) TimerEvent: {}
+[0.600557] (-) TimerEvent: {}
+[0.700778] (-) TimerEvent: {}
+[0.801104] (-) TimerEvent: {}
+[0.901702] (-) TimerEvent: {}
+[1.002262] (-) TimerEvent: {}
+[1.102825] (-) TimerEvent: {}
+[1.203391] (-) TimerEvent: {}
+[1.303875] (-) TimerEvent: {}
+[1.404665] (-) TimerEvent: {}
+[1.505071] (-) TimerEvent: {}
+[1.605633] (-) TimerEvent: {}
+[1.706230] (-) TimerEvent: {}
+[1.807123] (-) TimerEvent: {}
+[1.907744] (-) TimerEvent: {}
+[2.008317] (-) TimerEvent: {}
+[2.109019] (-) TimerEvent: {}
+[2.209827] (-) TimerEvent: {}
+[2.310701] (-) TimerEvent: {}
+[2.411315] (-) TimerEvent: {}
+[2.511931] (-) TimerEvent: {}
+[2.612636] (-) TimerEvent: {}
+[2.713338] (-) TimerEvent: {}
+[2.814226] (-) TimerEvent: {}
+[2.915112] (-) TimerEvent: {}
+[3.015813] (-) TimerEvent: {}
+[3.116533] (-) TimerEvent: {}
+[3.217226] (-) TimerEvent: {}
+[3.317855] (-) TimerEvent: {}
+[3.418713] (-) TimerEvent: {}
+[3.519310] (-) TimerEvent: {}
+[3.619943] (-) TimerEvent: {}
+[3.720496] (-) TimerEvent: {}
+[3.821089] (-) TimerEvent: {}
+[3.921771] (-) TimerEvent: {}
+[4.022485] (-) TimerEvent: {}
+[4.123262] (-) TimerEvent: {}
+[4.224234] (-) TimerEvent: {}
+[4.324952] (-) TimerEvent: {}
+[4.425823] (-) TimerEvent: {}
+[4.526524] (-) TimerEvent: {}
+[4.627426] (-) TimerEvent: {}
+[4.727998] (-) TimerEvent: {}
+[4.828249] (-) TimerEvent: {}
+[4.928577] (-) TimerEvent: {}
+[5.028878] (-) TimerEvent: {}
+[5.129200] (-) TimerEvent: {}
+[5.229687] (-) TimerEvent: {}
+[5.264621] (gamepad_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gamepad_teleop', 'build', '--build-base', '/home/victor/Desktop/robotics/build/gamepad_teleop/build', 'install', '--record', '/home/victor/Desktop/robotics/build/gamepad_teleop/install.log', '--install-scripts', '$base/lib/gamepad_teleop', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/victor/Desktop/robotics/src/gamepad_teleop', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,2493,0', 'USER': 'victor', 'SSH_CLIENT': '192.168.1.114 50638 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/victor', 'OLDPWD': '/home/victor', 'TERM_PROGRAM_VERSION': '3.4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_IP': 'IP2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'victor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'ROS_DOMAIN_ID': '12', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://IP1:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/victor/Desktop/robotics/build/gamepad_teleop', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.114 50638 192.168.1.15 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/victor/Desktop/robotics/build/gamepad_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[5.279996] (wheel_control_gui) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/wheel_control_gui', 'build', '--build-base', '/home/victor/Desktop/robotics/build/wheel_control_gui/build', 'install', '--record', '/home/victor/Desktop/robotics/build/wheel_control_gui/install.log', '--install-scripts', '$base/lib/wheel_control_gui', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,2493,0', 'USER': 'victor', 'SSH_CLIENT': '192.168.1.114 50638 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/victor', 'OLDPWD': '/home/victor', 'TERM_PROGRAM_VERSION': '3.4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_IP': 'IP2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'victor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'ROS_DOMAIN_ID': '12', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://IP1:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/victor/Desktop/robotics/build/wheel_control_gui', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.114 50638 192.168.1.15 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/victor/Desktop/robotics/build/wheel_control_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[5.329800] (-) TimerEvent: {}
+[5.430014] (-) TimerEvent: {}
+[5.510402] (gamepad_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.510683] (gamepad_teleop) StdoutLine: {'line': b'creating ../../build/gamepad_teleop/gamepad_teleop.egg-info\n'}
+[5.513520] (wheel_control_gui) StdoutLine: {'line': b'running egg_info\n'}
+[5.513807] (wheel_control_gui) StdoutLine: {'line': b'creating ../../../build/wheel_control_gui/wheel_control_gui.egg-info\n'}
+[5.527995] (gamepad_teleop) StdoutLine: {'line': b'writing ../../build/gamepad_teleop/gamepad_teleop.egg-info/PKG-INFO\n'}
+[5.528217] (gamepad_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/gamepad_teleop/gamepad_teleop.egg-info/dependency_links.txt\n'}
+[5.528339] (gamepad_teleop) StdoutLine: {'line': b'writing entry points to ../../build/gamepad_teleop/gamepad_teleop.egg-info/entry_points.txt\n'}
+[5.528580] (gamepad_teleop) StdoutLine: {'line': b'writing requirements to ../../build/gamepad_teleop/gamepad_teleop.egg-info/requires.txt\n'}
+[5.528702] (gamepad_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/gamepad_teleop/gamepad_teleop.egg-info/top_level.txt\n'}
+[5.528895] (gamepad_teleop) StdoutLine: {'line': b"writing manifest file '../../build/gamepad_teleop/gamepad_teleop.egg-info/SOURCES.txt'\n"}
+[5.530106] (-) TimerEvent: {}
+[5.531868] (wheel_control_gui) StdoutLine: {'line': b'writing ../../../build/wheel_control_gui/wheel_control_gui.egg-info/PKG-INFO\n'}
+[5.532100] (wheel_control_gui) StdoutLine: {'line': b'writing dependency_links to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/dependency_links.txt\n'}
+[5.532293] (wheel_control_gui) StdoutLine: {'line': b'writing entry points to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/entry_points.txt\n'}
+[5.532509] (wheel_control_gui) StdoutLine: {'line': b'writing requirements to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/requires.txt\n'}
+[5.532614] (wheel_control_gui) StdoutLine: {'line': b'writing top-level names to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/top_level.txt\n'}
+[5.532825] (wheel_control_gui) StdoutLine: {'line': b"writing manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'\n"}
+[5.568971] (wheel_control_gui) StdoutLine: {'line': b"reading manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'\n"}
+[5.569486] (wheel_control_gui) StdoutLine: {'line': b"writing manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'\n"}
+[5.569644] (wheel_control_gui) StdoutLine: {'line': b'running build\n'}
+[5.569795] (wheel_control_gui) StdoutLine: {'line': b'running build_py\n'}
+[5.569972] (wheel_control_gui) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/build/wheel_control_gui/build\n'}
+[5.570080] (wheel_control_gui) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib\n'}
+[5.570140] (wheel_control_gui) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui\n'}
+[5.570196] (wheel_control_gui) StdoutLine: {'line': b'copying wheel_control_gui/wheel_gui.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui\n'}
+[5.630558] (-) TimerEvent: {}
+[5.731184] (-) TimerEvent: {}
+[5.824178] (wheel_control_gui) StdoutLine: {'line': b'copying wheel_control_gui/distance_tracker.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui\n'}
+[5.831383] (-) TimerEvent: {}
+[5.863055] (gamepad_teleop) StdoutLine: {'line': b"reading manifest file '../../build/gamepad_teleop/gamepad_teleop.egg-info/SOURCES.txt'\n"}
+[5.863835] (gamepad_teleop) StdoutLine: {'line': b"writing manifest file '../../build/gamepad_teleop/gamepad_teleop.egg-info/SOURCES.txt'\n"}
+[5.864080] (gamepad_teleop) StdoutLine: {'line': b'running build\n'}
+[5.864171] (gamepad_teleop) StdoutLine: {'line': b'running build_py\n'}
+[5.864329] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/build/gamepad_teleop/build\n'}
+[5.864469] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib\n'}
+[5.864550] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop\n'}
+[5.864624] (gamepad_teleop) StdoutLine: {'line': b'copying gamepad_teleop/teleop_node.py -> /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop\n'}
+[5.893918] (wheel_control_gui) StdoutLine: {'line': b'copying wheel_control_gui/__init__.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui\n'}
+[5.894159] (wheel_control_gui) StdoutLine: {'line': b'running install\n'}
+[5.900387] (gamepad_teleop) StdoutLine: {'line': b'copying gamepad_teleop/__init__.py -> /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop\n'}
+[5.900612] (gamepad_teleop) StdoutLine: {'line': b'copying gamepad_teleop/command_gate.py -> /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop\n'}
+[5.900720] (wheel_control_gui) StdoutLine: {'line': b'running install_lib\n'}
+[5.926365] (wheel_control_gui) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui\n'}
+[5.926573] (wheel_control_gui) StdoutLine: {'line': b'copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/wheel_gui.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui\n'}
+[5.926783] (wheel_control_gui) StdoutLine: {'line': b'copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/distance_tracker.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui\n'}
+[5.926977] (wheel_control_gui) StdoutLine: {'line': b'copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/__init__.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui\n'}
+[5.927312] (wheel_control_gui) StdoutLine: {'line': b'byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/wheel_gui.py to wheel_gui.cpython-312.pyc\n'}
+[5.928608] (wheel_control_gui) StdoutLine: {'line': b'byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/distance_tracker.py to distance_tracker.cpython-312.pyc\n'}
+[5.929657] (wheel_control_gui) StdoutLine: {'line': b'byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/__init__.py to __init__.cpython-312.pyc\n'}
+[5.929838] (wheel_control_gui) StdoutLine: {'line': b'running install_data\n'}
+[5.930054] (wheel_control_gui) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index\n'}
+[5.930170] (wheel_control_gui) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index\n'}
+[5.930291] (wheel_control_gui) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index/packages\n'}
+[5.930398] (wheel_control_gui) StdoutLine: {'line': b'copying resource/wheel_control_gui -> /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index/packages\n'}
+[5.930469] (wheel_control_gui) StdoutLine: {'line': b'copying package.xml -> /home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui\n'}
+[5.930536] (wheel_control_gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.931397] (-) TimerEvent: {}
+[5.950899] (wheel_control_gui) StdoutLine: {'line': b'Copying ../../../build/wheel_control_gui/wheel_control_gui.egg-info to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui-0.0.0-py3.12.egg-info\n'}
+[5.951599] (wheel_control_gui) StdoutLine: {'line': b'running install_scripts\n'}
+[5.952790] (gamepad_teleop) StdoutLine: {'line': b'running install\n'}
+[5.957967] (gamepad_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[5.975692] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop\n'}
+[5.975957] (gamepad_teleop) StdoutLine: {'line': b'copying /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop/teleop_node.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop\n'}
+[5.976063] (gamepad_teleop) StdoutLine: {'line': b'copying /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop/__init__.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop\n'}
+[5.976268] (gamepad_teleop) StdoutLine: {'line': b'copying /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop/command_gate.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop\n'}
+[5.976610] (gamepad_teleop) StdoutLine: {'line': b'byte-compiling /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop/teleop_node.py to teleop_node.cpython-312.pyc\n'}
+[5.977595] (gamepad_teleop) StdoutLine: {'line': b'byte-compiling /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop/__init__.py to __init__.cpython-312.pyc\n'}
+[5.977806] (gamepad_teleop) StdoutLine: {'line': b'byte-compiling /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop/command_gate.py to command_gate.cpython-312.pyc\n'}
+[5.978668] (gamepad_teleop) StdoutLine: {'line': b'running install_data\n'}
+[5.978919] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index\n'}
+[5.979024] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index/resource_index\n'}
+[5.979122] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index/resource_index/packages\n'}
+[5.979220] (gamepad_teleop) StdoutLine: {'line': b'copying resource/gamepad_teleop -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index/resource_index/packages\n'}
+[5.979304] (gamepad_teleop) StdoutLine: {'line': b'copying package.xml -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop\n'}
+[5.979378] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/launch\n'}
+[5.979447] (gamepad_teleop) StdoutLine: {'line': b'copying launch/gamepad_teleop.launch.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/launch\n'}
+[6.017033] (gamepad_teleop) StdoutLine: {'line': b'creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/config\n'}
+[6.017236] (gamepad_teleop) StdoutLine: {'line': b'copying config/teleop.yaml -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/config\n'}
+[6.017557] (gamepad_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.031496] (-) TimerEvent: {}
+[6.036654] (gamepad_teleop) StdoutLine: {'line': b'Copying ../../build/gamepad_teleop/gamepad_teleop.egg-info to /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop-0.0.1-py3.12.egg-info\n'}
+[6.037367] (gamepad_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[6.070399] (wheel_control_gui) StdoutLine: {'line': b'Installing distance_tracker script to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/wheel_control_gui\n'}
+[6.070679] (wheel_control_gui) StdoutLine: {'line': b'Installing wheel_gui script to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/wheel_control_gui\n'}
+[6.070910] (wheel_control_gui) StdoutLine: {'line': b"writing list of installed files to '/home/victor/Desktop/robotics/build/wheel_control_gui/install.log'\n"}
+[6.091078] (wheel_control_gui) CommandEnded: {'returncode': 0}
+[6.131608] (-) TimerEvent: {}
+[6.154863] (gamepad_teleop) StdoutLine: {'line': b'Installing teleop_node script to /home/victor/Desktop/robotics/install/gamepad_teleop/lib/gamepad_teleop\n'}
+[6.155122] (gamepad_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/victor/Desktop/robotics/build/gamepad_teleop/install.log'\n"}
+[6.232044] (-) TimerEvent: {}
+[6.332448] (-) TimerEvent: {}
+[6.433136] (-) TimerEvent: {}
+[6.533811] (-) TimerEvent: {}
+[6.634442] (-) TimerEvent: {}
+[6.735227] (-) TimerEvent: {}
+[6.803816] (wheel_control_gui) JobEnded: {'identifier': 'wheel_control_gui', 'rc': 0}
+[6.806825] (gamepad_teleop) CommandEnded: {'returncode': 0}
+[6.815969] (gamepad_teleop) JobEnded: {'identifier': 'gamepad_teleop', 'rc': 0}
+[6.816966] (-) EventReactorShutdown: {}

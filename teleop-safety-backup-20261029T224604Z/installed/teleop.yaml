@@ -1,0 +1,11 @@
+gamepad_teleop:
+  ros__parameters:
+    linear_axis: 1       # Left stick vertical (game_controller_node)
+    angular_axis: 2      # Right stick horizontal (game_controller_node)
+    linear_scale: 0.3    # max m/s
+    angular_scale: 0.8   # max rad/s
+    angular_invert: true # right-stick right -> negative angular.z (right turn)
+    deadzone: 0.1
+    enable_button: 9     # Hold left shoulder; -1 disables requirement
+    timeout_sec: 0.5
+    publish_rate: 20.0

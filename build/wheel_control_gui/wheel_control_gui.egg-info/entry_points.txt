@@ -1,0 +1,3 @@
+[console_scripts]
+distance_tracker = wheel_control_gui.distance_tracker:main
+wheel_gui = wheel_control_gui.wheel_gui:main

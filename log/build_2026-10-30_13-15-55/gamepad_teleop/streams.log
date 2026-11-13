@@ -1,0 +1,44 @@
+[5.265s] Invoking command in '/home/victor/Desktop/robotics/src/gamepad_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/gamepad_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_teleop build --build-base /home/victor/Desktop/robotics/build/gamepad_teleop/build install --record /home/victor/Desktop/robotics/build/gamepad_teleop/install.log --install-scripts $base/lib/gamepad_teleop --single-version-externally-managed install_data
+[5.510s] running egg_info
+[5.511s] creating ../../build/gamepad_teleop/gamepad_teleop.egg-info
+[5.528s] writing ../../build/gamepad_teleop/gamepad_teleop.egg-info/PKG-INFO
+[5.528s] writing dependency_links to ../../build/gamepad_teleop/gamepad_teleop.egg-info/dependency_links.txt
+[5.528s] writing entry points to ../../build/gamepad_teleop/gamepad_teleop.egg-info/entry_points.txt
+[5.529s] writing requirements to ../../build/gamepad_teleop/gamepad_teleop.egg-info/requires.txt
+[5.529s] writing top-level names to ../../build/gamepad_teleop/gamepad_teleop.egg-info/top_level.txt
+[5.529s] writing manifest file '../../build/gamepad_teleop/gamepad_teleop.egg-info/SOURCES.txt'
+[5.863s] reading manifest file '../../build/gamepad_teleop/gamepad_teleop.egg-info/SOURCES.txt'
+[5.864s] writing manifest file '../../build/gamepad_teleop/gamepad_teleop.egg-info/SOURCES.txt'
+[5.864s] running build
+[5.864s] running build_py
+[5.864s] creating /home/victor/Desktop/robotics/build/gamepad_teleop/build
+[5.864s] creating /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib
+[5.864s] creating /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop
+[5.865s] copying gamepad_teleop/teleop_node.py -> /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop
+[5.900s] copying gamepad_teleop/__init__.py -> /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop
+[5.901s] copying gamepad_teleop/command_gate.py -> /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop
+[5.953s] running install
+[5.958s] running install_lib
+[5.976s] creating /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop
+[5.976s] copying /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop/teleop_node.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop
+[5.976s] copying /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop/__init__.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop
+[5.976s] copying /home/victor/Desktop/robotics/build/gamepad_teleop/build/lib/gamepad_teleop/command_gate.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop
+[5.977s] byte-compiling /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop/teleop_node.py to teleop_node.cpython-312.pyc
+[5.978s] byte-compiling /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop/__init__.py to __init__.cpython-312.pyc
+[5.978s] byte-compiling /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop/command_gate.py to command_gate.cpython-312.pyc
+[5.979s] running install_data
+[5.979s] creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index
+[5.979s] creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index/resource_index
+[5.979s] creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index/resource_index/packages
+[5.979s] copying resource/gamepad_teleop -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/ament_index/resource_index/packages
+[5.979s] copying package.xml -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop
+[5.979s] creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/launch
+[5.979s] copying launch/gamepad_teleop.launch.py -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/launch
+[6.017s] creating /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/config
+[6.017s] copying config/teleop.yaml -> /home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/config
+[6.017s] running install_egg_info
+[6.037s] Copying ../../build/gamepad_teleop/gamepad_teleop.egg-info to /home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages/gamepad_teleop-0.0.1-py3.12.egg-info
+[6.037s] running install_scripts
+[6.155s] Installing teleop_node script to /home/victor/Desktop/robotics/install/gamepad_teleop/lib/gamepad_teleop
+[6.155s] writing list of installed files to '/home/victor/Desktop/robotics/build/gamepad_teleop/install.log'
+[6.807s] Invoked command in '/home/victor/Desktop/robotics/src/gamepad_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/gamepad_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_teleop build --build-base /home/victor/Desktop/robotics/build/gamepad_teleop/build install --record /home/victor/Desktop/robotics/build/gamepad_teleop/install.log --install-scripts $base/lib/gamepad_teleop --single-version-externally-managed install_data

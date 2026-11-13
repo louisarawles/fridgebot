@@ -1,0 +1,41 @@
+[5.235s] Invoking command in '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/wheel_control_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/wheel_control_gui build --build-base /home/victor/Desktop/robotics/build/wheel_control_gui/build install --record /home/victor/Desktop/robotics/build/wheel_control_gui/install.log --install-scripts $base/lib/wheel_control_gui --single-version-externally-managed install_data
+[5.468s] running egg_info
+[5.469s] creating ../../../build/wheel_control_gui/wheel_control_gui.egg-info
+[5.487s] writing ../../../build/wheel_control_gui/wheel_control_gui.egg-info/PKG-INFO
+[5.487s] writing dependency_links to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/dependency_links.txt
+[5.487s] writing entry points to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/entry_points.txt
+[5.487s] writing requirements to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/requires.txt
+[5.487s] writing top-level names to ../../../build/wheel_control_gui/wheel_control_gui.egg-info/top_level.txt
+[5.488s] writing manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'
+[5.524s] reading manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'
+[5.524s] writing manifest file '../../../build/wheel_control_gui/wheel_control_gui.egg-info/SOURCES.txt'
+[5.525s] running build
+[5.525s] running build_py
+[5.525s] creating /home/victor/Desktop/robotics/build/wheel_control_gui/build
+[5.525s] creating /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib
+[5.525s] creating /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+[5.525s] copying wheel_control_gui/wheel_gui.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+[5.779s] copying wheel_control_gui/distance_tracker.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+[5.849s] copying wheel_control_gui/__init__.py -> /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui
+[5.849s] running install
+[5.856s] running install_lib
+[5.881s] creating /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+[5.882s] copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/wheel_gui.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+[5.882s] copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/distance_tracker.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+[5.882s] copying /home/victor/Desktop/robotics/build/wheel_control_gui/build/lib/wheel_control_gui/__init__.py -> /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui
+[5.882s] byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/wheel_gui.py to wheel_gui.cpython-312.pyc
+[5.883s] byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/distance_tracker.py to distance_tracker.cpython-312.pyc
+[5.885s] byte-compiling /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui/__init__.py to __init__.cpython-312.pyc
+[5.885s] running install_data
+[5.885s] creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index
+[5.885s] creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index
+[5.885s] creating /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index/packages
+[5.885s] copying resource/wheel_control_gui -> /home/victor/Desktop/robotics/install/wheel_control_gui/share/ament_index/resource_index/packages
+[5.885s] copying package.xml -> /home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui
+[5.885s] running install_egg_info
+[5.906s] Copying ../../../build/wheel_control_gui/wheel_control_gui.egg-info to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages/wheel_control_gui-0.0.0-py3.12.egg-info
+[5.906s] running install_scripts
+[6.025s] Installing distance_tracker script to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/wheel_control_gui
+[6.026s] Installing wheel_gui script to /home/victor/Desktop/robotics/install/wheel_control_gui/lib/wheel_control_gui
+[6.026s] writing list of installed files to '/home/victor/Desktop/robotics/build/wheel_control_gui/install.log'
+[6.046s] Invoked command in '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/wheel_control_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/wheel_control_gui build --build-base /home/victor/Desktop/robotics/build/wheel_control_gui/build install --record /home/victor/Desktop/robotics/build/wheel_control_gui/install.log --install-scripts $base/lib/wheel_control_gui --single-version-externally-managed install_data

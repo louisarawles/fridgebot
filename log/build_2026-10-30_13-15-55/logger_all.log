@@ -1,0 +1,287 @@
+[3.477s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.477s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ec5370a0ad0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ec5370a07d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ec5370a07d0>>, mixin_verb=('build',))
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.841s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/victor/Desktop/robotics'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extensions ['ignore', 'ignore_ament_install']
+[3.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extension 'ignore'
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extension 'ignore_ament_install'
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extensions ['colcon_pkg']
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extension 'colcon_pkg'
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extensions ['colcon_meta']
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extension 'colcon_meta'
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extensions ['ros']
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_teleop) by extension 'ros'
+[4.043s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gamepad_teleop' with type 'ros.ament_python' and name 'gamepad_teleop'
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extensions ['ignore', 'ignore_ament_install']
+[4.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'ignore'
+[4.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'ignore_ament_install'
+[4.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extensions ['colcon_pkg']
+[4.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'colcon_pkg'
+[4.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extensions ['colcon_meta']
+[4.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'colcon_meta'
+[4.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extensions ['ros']
+[4.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'ros'
+[4.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extensions ['cmake', 'python']
+[4.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'cmake'
+[4.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'python'
+[4.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extensions ['python_setup_py']
+[4.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle) by extension 'python_setup_py'
+[4.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[4.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'ignore'
+[4.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'ignore_ament_install'
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extensions ['colcon_pkg']
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'colcon_pkg'
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extensions ['colcon_meta']
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'colcon_meta'
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extensions ['ros']
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'ros'
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extensions ['cmake', 'python']
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'cmake'
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'python'
+[4.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extensions ['python_setup_py']
+[4.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_bundle/motor_control) by extension 'python_setup_py'
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extensions ['ignore', 'ignore_ament_install']
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'ignore'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'ignore_ament_install'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extensions ['colcon_pkg']
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'colcon_pkg'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extensions ['colcon_meta']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'colcon_meta'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extensions ['ros']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'ros'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extensions ['cmake', 'python']
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'cmake'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'python'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extensions ['python_setup_py']
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui) by extension 'python_setup_py'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extensions ['ignore', 'ignore_ament_install']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extension 'ignore'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extension 'ignore_ament_install'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extensions ['colcon_pkg']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extension 'colcon_pkg'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extensions ['colcon_meta']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extension 'colcon_meta'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extensions ['ros']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_control_gui/wheel_control_gui) by extension 'ros'
+[4.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheel_control_gui/wheel_control_gui' with type 'ros.ament_python' and name 'wheel_control_gui'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extensions ['ignore', 'ignore_ament_install']
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'ignore'
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'ignore_ament_install'
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extensions ['colcon_pkg']
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'colcon_pkg'
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extensions ['colcon_meta']
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'colcon_meta'
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extensions ['ros']
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'ros'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extensions ['cmake', 'python']
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'cmake'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'python'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extensions ['python_setup_py']
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z) by extension 'python_setup_py'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extensions ['ignore', 'ignore_ament_install']
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'ignore'
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'ignore_ament_install'
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extensions ['colcon_pkg']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'colcon_pkg'
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extensions ['colcon_meta']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'colcon_meta'
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extensions ['ros']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'ros'
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extensions ['cmake', 'python']
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'cmake'
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'python'
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extensions ['python_setup_py']
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/installed) by extension 'python_setup_py'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extensions ['ignore', 'ignore_ament_install']
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'ignore'
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'ignore_ament_install'
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extensions ['colcon_pkg']
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'colcon_pkg'
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extensions ['colcon_meta']
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'colcon_meta'
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extensions ['ros']
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'ros'
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extensions ['cmake', 'python']
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'cmake'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'python'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extensions ['python_setup_py']
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source) by extension 'python_setup_py'
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extensions ['ignore', 'ignore_ament_install']
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'ignore'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'ignore_ament_install'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extensions ['colcon_pkg']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'colcon_pkg'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extensions ['colcon_meta']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'colcon_meta'
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extensions ['ros']
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'ros'
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extensions ['cmake', 'python']
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'cmake'
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'python'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extensions ['python_setup_py']
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/config) by extension 'python_setup_py'
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extensions ['ignore', 'ignore_ament_install']
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'ignore'
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'ignore_ament_install'
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extensions ['colcon_pkg']
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'colcon_pkg'
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extensions ['colcon_meta']
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'colcon_meta'
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extensions ['ros']
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'ros'
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extensions ['cmake', 'python']
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'cmake'
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'python'
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extensions ['python_setup_py']
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(teleop-safety-backup-20261029T224604Z/source/gamepad_teleop) by extension 'python_setup_py'
+[4.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[4.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'cmake_args' from command line to 'None'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'cmake_target' from command line to 'None'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'gamepad_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.638s] DEBUG:colcon.colcon_core.verb:Building package 'gamepad_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victor/Desktop/robotics/build/gamepad_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victor/Desktop/robotics/install/gamepad_teleop', 'merge_install': False, 'path': '/home/victor/Desktop/robotics/src/gamepad_teleop', 'symlink_install': False, 'test_result_base': None}
+[4.638s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'cmake_args' from command line to 'None'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'cmake_target' from command line to 'None'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'cmake_clean_first' from command line to 'False'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'cmake_force_configure' from command line to 'False'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'ament_cmake_args' from command line to 'None'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[4.639s] Level 5:colcon.colcon_core.verb:set package 'wheel_control_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.639s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_control_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victor/Desktop/robotics/build/wheel_control_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victor/Desktop/robotics/install/wheel_control_gui', 'merge_install': False, 'path': '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui', 'symlink_install': False, 'test_result_base': None}
+[4.639s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.640s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/victor/Desktop/robotics/src/gamepad_teleop' with build type 'ament_python'
+[4.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_teleop', 'ament_prefix_path')
+[4.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/hook/ament_prefix_path.ps1'
+[4.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/hook/ament_prefix_path.dsv'
+[4.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/hook/ament_prefix_path.sh'
+[4.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.685s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui' with build type 'ament_python'
+[4.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_control_gui', 'ament_prefix_path')
+[4.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/hook/ament_prefix_path.ps1'
+[4.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/hook/ament_prefix_path.dsv'
+[4.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/hook/ament_prefix_path.sh'
+[4.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.908s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/victor/Desktop/robotics/src/gamepad_teleop'
+[4.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.099s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui'
+[5.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.904s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_rpm, init_catalog, install_scripts, compile_catalog, upload, sdist, install_egg_info, register, build_py, clean, test, build_scripts, install_headers, build_clib, extract_messages, build_ext, bdist_dumb, bdist_wheel, upload_docs, symlink_data, develop, bdist, update_catalog, alias, egg_info, saveopts, editable_wheel, install_data, setopt, build, install_lib, rotate, install, check, dist_info, easy_install, bdist_egg
+[9.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/Desktop/robotics/src/gamepad_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/gamepad_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_teleop build --build-base /home/victor/Desktop/robotics/build/gamepad_teleop/build install --record /home/victor/Desktop/robotics/build/gamepad_teleop/install.log --install-scripts $base/lib/gamepad_teleop --single-version-externally-managed install_data
+[9.919s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_rpm, init_catalog, install_scripts, compile_catalog, upload, sdist, install_egg_info, register, build_py, clean, test, build_scripts, install_headers, build_clib, extract_messages, build_ext, bdist_dumb, bdist_wheel, upload_docs, symlink_data, develop, bdist, update_catalog, alias, egg_info, saveopts, editable_wheel, install_data, setopt, build, install_lib, rotate, install, check, dist_info, easy_install, bdist_egg
+[9.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/wheel_control_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/wheel_control_gui build --build-base /home/victor/Desktop/robotics/build/wheel_control_gui/build install --record /home/victor/Desktop/robotics/build/wheel_control_gui/install.log --install-scripts $base/lib/wheel_control_gui --single-version-externally-managed install_data
+[10.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/Desktop/robotics/src/wheel_control_gui/wheel_control_gui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/wheel_control_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/wheel_control_gui build --build-base /home/victor/Desktop/robotics/build/wheel_control_gui/build install --record /home/victor/Desktop/robotics/build/wheel_control_gui/install.log --install-scripts $base/lib/wheel_control_gui --single-version-externally-managed install_data
+[11.397s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/wheel_control_gui' for CMake module files
+[11.399s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/wheel_control_gui' for CMake config files
+[11.402s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/wheel_control_gui/lib'
+[11.402s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/wheel_control_gui/bin'
+[11.403s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/wheel_control_gui/lib/pkgconfig/wheel_control_gui.pc'
+[11.404s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/wheel_control_gui/lib/python3.12/site-packages'
+[11.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_control_gui', 'pythonpath')
+[11.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/hook/pythonpath.ps1'
+[11.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/hook/pythonpath.dsv'
+[11.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/hook/pythonpath.sh'
+[11.410s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/wheel_control_gui/bin'
+[11.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_control_gui)
+[11.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/package.ps1'
+[11.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/package.dsv'
+[11.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/package.sh'
+[11.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/package.bash'
+[11.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/wheel_control_gui/share/wheel_control_gui/package.zsh'
+[11.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/Desktop/robotics/install/wheel_control_gui/share/colcon-core/packages/wheel_control_gui)
+[11.446s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/gamepad_teleop' for CMake module files
+[11.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/Desktop/robotics/src/gamepad_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/victor/Desktop/robotics/build/gamepad_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_teleop build --build-base /home/victor/Desktop/robotics/build/gamepad_teleop/build install --record /home/victor/Desktop/robotics/build/gamepad_teleop/install.log --install-scripts $base/lib/gamepad_teleop --single-version-externally-managed install_data
+[11.448s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/gamepad_teleop' for CMake config files
+[11.450s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/gamepad_teleop/lib'
+[11.450s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/gamepad_teleop/bin'
+[11.450s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/gamepad_teleop/lib/pkgconfig/gamepad_teleop.pc'
+[11.451s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/gamepad_teleop/lib/python3.12/site-packages'
+[11.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_teleop', 'pythonpath')
+[11.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/hook/pythonpath.ps1'
+[11.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/hook/pythonpath.dsv'
+[11.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/hook/pythonpath.sh'
+[11.454s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/robotics/install/gamepad_teleop/bin'
+[11.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad_teleop)
+[11.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/package.ps1'
+[11.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/package.dsv'
+[11.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/package.sh'
+[11.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/package.bash'
+[11.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/robotics/install/gamepad_teleop/share/gamepad_teleop/package.zsh'
+[11.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/Desktop/robotics/install/gamepad_teleop/share/colcon-core/packages/gamepad_teleop)
+[11.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.456s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.457s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/robotics/install/local_setup.ps1'
+[11.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victor/Desktop/robotics/install/_local_setup_util_ps1.py'
+[11.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/robotics/install/setup.ps1'
+[11.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/robotics/install/local_setup.sh'
+[11.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victor/Desktop/robotics/install/_local_setup_util_sh.py'
+[11.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/robotics/install/setup.sh'
+[11.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/robotics/install/local_setup.bash'
+[11.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/robotics/install/setup.bash'
+[11.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/robotics/install/local_setup.zsh'
+[11.464s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/robotics/install/setup.zsh'

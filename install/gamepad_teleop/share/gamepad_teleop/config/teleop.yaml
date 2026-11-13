@@ -1,0 +1,12 @@
+gamepad_teleop:
+  ros__parameters:
+    linear_axis: 1       # Left stick vertical (game_controller_node)
+    angular_axis: 2      # Right stick horizontal (game_controller_node)
+    linear_scale: 0.05   # Initial test limit, m/s
+    angular_scale: 0.1   # Initial test limit, rad/s
+    angular_invert: true
+    deadzone: 0.1
+    enable_button: 9     # Hold left shoulder; required for every drive session
+    timeout_sec: 0.5
+    publish_rate: 20.0
+    neutral_hold_sec: 0.5

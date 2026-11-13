@@ -1,0 +1,6 @@
+source;share/wheel_control_gui/hook/pythonpath.ps1
+source;share/wheel_control_gui/hook/pythonpath.dsv
+source;share/wheel_control_gui/hook/pythonpath.sh
+source;share/wheel_control_gui/hook/ament_prefix_path.ps1
+source;share/wheel_control_gui/hook/ament_prefix_path.dsv
+source;share/wheel_control_gui/hook/ament_prefix_path.sh

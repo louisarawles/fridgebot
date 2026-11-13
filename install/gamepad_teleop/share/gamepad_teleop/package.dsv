@@ -1,0 +1,6 @@
+source;share/gamepad_teleop/hook/pythonpath.ps1
+source;share/gamepad_teleop/hook/pythonpath.dsv
+source;share/gamepad_teleop/hook/pythonpath.sh
+source;share/gamepad_teleop/hook/ament_prefix_path.ps1
+source;share/gamepad_teleop/hook/ament_prefix_path.dsv
+source;share/gamepad_teleop/hook/ament_prefix_path.sh
